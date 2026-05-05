@@ -15,16 +15,3 @@ public:
         return this->judul;
     }
 };
-
-int main() {
-    buku bukunya;
-
-    // Contoh pemanggilan biasa (dikomentari di gambar)
-    // bukunya.setJudul("Matematika");
-    // cout << bukunya.getJudul();
-
-    // Contoh Method Chaining (pemanggilan berantai)
-    cout << bukunya.setJudul("Matematika").getJudul() << endl; // chain function calls
-
-    return 0;
-}
