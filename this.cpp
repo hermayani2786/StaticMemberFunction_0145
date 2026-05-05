@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class buku{
     string judul;
     public:
@@ -9,10 +8,3 @@ class buku{
             return this->judul; //return variabel judul
         }
 };
-
-int main()
-{
-    buku bukunya;
-    cout << bukunya.setget ("Matematika");
-    return 0;
-}
